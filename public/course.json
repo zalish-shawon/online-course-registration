@@ -2,71 +2,71 @@
     {
       "id": 1,
       "course_name": "Introduction to C Programming",
-      "description": "Learn the basics of programming in this introductory course.",
-      "img": "https://i.ibb.co/XtFGy51/Rectangle-2-3.png",
+      "description": "Learn the fundamentals of C programming, a versatile language used in system development and embedded systems, for building efficient software.",
+      "img": "https://i.ibb.co/j41TpKz/Rectangle-2-2.png",
       "credit": 3,
       "price": 12000
     },
     {
       "id": 2,
       "course_name": "Introduction to Algorithms",
-      "description": "Explore the world of web development from scratch.",
-      "img": "https://i.ibb.co/G9sLQTL/Rectangle-3-1.png",
+      "description": "Explore algorithm design and analysis techniques, essential for solving complex problems efficiently in various domains of computer science.",
+      "img": "https://i.ibb.co/XtFGy51/Rectangle-2-3.png",
       "credit": 4,
       "price": 10000
     },
     {
       "id": 3,
       "course_name": "Introduction to C++ for DSA",
-      "description": "Get started with data analysis and machine learning.",
-      "img": "https://i.ibb.co/G9sLQTL/Rectangle-3-1.png",
+      "description": "Use C++ to implement data structures and algorithms, preparing for competitive programming and software development interviews.",
+      "img": "https://i.ibb.co/LtBxqsv/Rectangle-2-4.png",
       "credit": 5,
       "price": 13000
     },
     {
       "id": 4,
       "course_name": "Basic Data Structures",
-      "description": "Unlock your creative potential with graphic design skills.",
-      "img": "https://i.ibb.co/j41TpKz/Rectangle-2-2.png",
+      "description": "Master fundamental data structures like arrays, linked lists, and trees to efficiently manage and manipulate data in software development.",
+      "img": "https://i.ibb.co/mFrGdL1/Rectangle-3.png",
       "credit": 3,
       "price": 8000
     },
     {
       "id": 5,
       "course_name": "Introduction to OOP Python",
-      "description": "Build mobile apps for iOS and Android platforms.",
-      "img": "https://i.ibb.co/LtBxqsv/Rectangle-2-4.png",
+      "description": "Learn object-oriented programming (OOP) principles in Python, enabling modular and reusable code for building robust applications.",
+      "img": "https://i.ibb.co/SXyJtkz/Rectangle-2.png",
       "credit": 4,
       "price": 11000
     },
     {
       "id": 6,
       "course_name": "Software Engineering",
-      "description": "Learn how to create effective digital marketing campaigns.",
-      "img": "https://i.ibb.co/mFrGdL1/Rectangle-3.png",
+      "description": "Understand the software development life cycle, from requirements gathering to testing and maintenance, to create reliable and scalable software products.",
+      "img": "https://i.ibb.co/DMfmzKN/Rectangle-2-5.png",
       "credit": 3,
       "price": 5000
     },
     {
       "id": 7,
       "course_name": "AWS, Cloud Computing",
-      "description": "Protect digital assets and secure online environments.",
-      "img": "https://i.ibb.co/hfVG5SX/Rectangle-2-1.png",
+      "description": " Dive into Amazon Web Services (AWS) to deploy, manage, and scale cloud-based applications, leveraging a wide range of cloud computing services.",
+      "img": "https://i.ibb.co/G9sLQTL/Rectangle-3-1.png",
       "credit": 5,
       "price": 9000
     },
     {
       "id": 8,
       "course_name": "Database (MySQL)",
-      "description": "Gain insights into effective business leadership.",
-      "img": "https://i.ibb.co/SXyJtkz/Rectangle-2.png",
+      "description": "Study MySQL, a popular relational database management system, for efficient data storage and retrieval in web and software applications.",
+      "img": "https://i.ibb.co/hfVG5SX/Rectangle-2-1.png",
       "credit": 4,
       "price": 4500
     },
     {
       "id": 9,
       "course_name": "Problem-Solving Part",
-      "description": "Dive into the world of AI and machine learning.",
+      "description": "Develop problem-solving skills, essential for tackling real-world challenges and coding interviews, using algorithms and data structures effectively.",
       "img": "https://i.ibb.co/XtymCds/Rectangle-2-6.png",
       "credit": 5,
       "price": 18000
