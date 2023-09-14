@@ -2,13 +2,13 @@
 /* eslint-disable react/no-unknown-property */
 import { FiDollarSign } from 'react-icons/fi';
 import { FiBookOpen } from 'react-icons/fi';
-const Course = ({ course }) => {
+const Course = ({ course, handleCourseName }) => {
     const { course_name, description, img, price, credit } = course
 
     return (
         <div>
             <div className="card bg-base-100 shadow-xl h-[450px]">
-                <figure className="px-10 pt-10">
+                <figure className="px-10">
                     <img src={img} alt="Shoes" className="rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center">
@@ -25,7 +25,7 @@ const Course = ({ course }) => {
                         </div>
                     </div>
                     <div className="card-actions">
-                        <button className="btn btn-primary">Select</button>
+                        <button onClick={() => handleCourseName(course)} className="btn btn-primary">Select</button>
                     </div>
                 </div>
             </div>
