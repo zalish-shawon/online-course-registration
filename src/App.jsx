@@ -39,7 +39,7 @@ function App() {
         </div>
         <div className=' mt-10'>
               <Remaincredit></Remaincredit>
-              <CourseName courseName = {courseName}  ></CourseName>
+              <CourseName courseName = {courseName}   ></CourseName>
               <TotalCredit></TotalCredit>
         </div>
       </div>
