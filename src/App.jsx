@@ -7,6 +7,7 @@ import Remaincredit from './Remaincredit'
 import CourseName from './CourseName'
 import TotalCredit from './TotalCredit'
 import TotalCost from './TotalCost'
+import toast, { Toaster } from 'react-hot-toast';
 
 function App() {
   const [courses, setCourses] = useState([])
@@ -14,7 +15,7 @@ function App() {
   const [totalCredit, setTotalCredit] = useState(0);
   const [totalCost, setTotalCost] = useState(0)
   const [creditHourRemain, setCreditHourRemain] = useState(20)
-  
+
 
 
   const handleCourseName = (coursename) => {
@@ -23,7 +24,7 @@ function App() {
     let creditHr = coursename.credit
     let cost = coursename.price
     if (isExits) {
-      return alert("Already Selected")
+      return toast.error("Already Selected")
     } else {
       courseName.forEach(item => {
         creditHr = creditHr + item.credit
@@ -34,7 +35,7 @@ function App() {
     const Remaincredit = 20 - creditHr
 
     if (Remaincredit < 0) {
-      return alert("Credit limit is over")
+      return toast.error("Credit limit is over")
     }
     setCourseName(newCourseArr)
     setTotalCredit(creditHr)
@@ -64,10 +65,12 @@ function App() {
           }
         </div>
         <div className=' mt-10'>
-          <Remaincredit creditHourRemain = {creditHourRemain} ></Remaincredit>
+          <Toaster position="bottom-right"
+            reverseOrder={true}></Toaster>
+          <Remaincredit creditHourRemain={creditHourRemain} ></Remaincredit>
           <CourseName courseName={courseName} ></CourseName>
           <TotalCredit totalCredit={totalCredit}></TotalCredit>
-          <TotalCost totalCost = {totalCost} ></TotalCost>
+          <TotalCost totalCost={totalCost} ></TotalCost>
         </div>
       </div>
     </>
