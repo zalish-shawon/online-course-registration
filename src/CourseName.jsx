@@ -5,18 +5,19 @@
 const CourseName = ({courseName}) => {
     
     return (
-        <div className=" bg-slate-100 px-1">
+        <div className="px-1">
             <h1 className="font-bold text-xl mt-3 mb-4">Course Name</h1>
-            
+            <ol className=" list-decimal">
              {
                 courseName.map((item) => 
-                <div className="">
-                    <ol>
-                    <li className=" mt-1 mb-2 font-semibold ">{item.course_name}</li>
-                    </ol>
+                <div>
+                    
+                    <li className="ml-3 mt-1 mb-2 font-semibold text-gray-500 ">{item.course_name}</li>
+                    
                 </div>
                 )
              }
+             </ol>
             <hr />
         </div>
     );
