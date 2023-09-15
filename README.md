@@ -9,7 +9,7 @@
 
 # Discuss how you managed the state in this project
 
-**courses state**: from this state i can handle data from my local api and also display data in the browser.
+* **courses state**: from this state i can handle data from my local api and also display data in the browser.
 
 * **courseName state:** here this state can be controll selected course, also users cannot be select same course twice.
 
