@@ -2,7 +2,7 @@
 const TotalCost = ({totalCost}) => {
     return (
             <div>
-            <h1 className='text-xl font-bold mt-2 mb-2'>Total Cost: {totalCost}$ </h1>
+            <h1 className='text-xl font-bold mt-2 mb-2'>Total Cost: {totalCost} USD </h1>
 
             <hr />
         </div>
